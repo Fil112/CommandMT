@@ -1,0 +1,19 @@
+name: CommandMT
+version: "${project.version}"
+main: mt.command.CommandMT
+api-version: "1.16"
+prefix: CommandMT
+authors: [ Keylo ]
+website: "https://modrinth.com/user/Keylo"
+description: Кастомные команды и скрипты (MT Studio)
+commands:
+  commandmt:
+    description: Главная команда управления плагином CommandMT
+    aliases: [ mtcmd, mt ]
+    permission: commandmt.admin
+    permission-message: §cУ вас недостаточно прав!
+    usage: /<command> reload
+permissions:
+  commandmt.admin:
+    description: Доступ к перезагрузке и настройкам плагина
+    default: op

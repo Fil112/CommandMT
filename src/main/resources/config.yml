@@ -1,0 +1,30 @@
+# ========================================== #
+#         CommandMT Global Configuration     #
+#       Глобальная конфигурация CommandMT    #
+#                by MT Studio                #
+# ========================================== #
+
+# EN: Select the language for system messages (ru / en)
+# RU: Выберите язык для системных сообщений (ru / en)
+locale: "ru"
+
+# EN: Plugin prefix for chat messages
+# RU: Префикс плагина для системных сообщений в чате
+prefix: "&8[&aCommandMT&8] &f"
+
+# ========================================== #
+#                 Messages                   #
+#                 Сообщения                  #
+# ========================================== #
+messages:
+  ru:
+    no_permission: "&cУ вас недостаточно прав для выполнения этой команды!"
+    player_only: "&cЭту команду может использовать только игрок!"
+    reloaded: "&aВсе .mt файлы и конфигурации успешно перезагружены!"
+    unknown_error: "&cПроизошла непредвиденная ошибка при выполнении команды."
+
+  en:
+    no_permission: "&cYou don't have permission to execute this command!"
+    player_only: "&cThis command can only be executed by a player!"
+    reloaded: "&aAll .mt files and configurations have been successfully reloaded!"
+    unknown_error: "&cAn unexpected error occurred while executing the command."
